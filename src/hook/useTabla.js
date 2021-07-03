@@ -260,7 +260,6 @@ export default function useTabla(nTabla) {
     )
 
     const caballosComprados = tabla.filter(doc => doc.jugador !== 'C')
-    console.log(caballosComprados)
 
     const totalCaballosComprados = Object.values(caballosComprados).reduce(
         (acc, { total }) => acc + total,
