@@ -266,9 +266,9 @@ export default function useTabla(nTabla) {
         0
     )
 
-    const totalTabla1 = totalJugada - (totalJugada * 0.30)
+    const totalTabla1 = totalJugada - (totalJugada * 0.20)
 
-    const totalTabla2 = (totalJugada / 2) - ((totalJugada / 2) * 0.30)
+    const totalTabla2 = (totalJugada / 2) - ((totalJugada / 2) * 0.20)
 
 
     const handleInputChangeJugada = (e) => {
